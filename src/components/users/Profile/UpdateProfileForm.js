@@ -65,7 +65,7 @@ if(isProfileUpdated) return navigate(`/profile/${userAuth?._id}`)
             <h3 className="mt-6 text-center text-3xl font-extrabold text-gray-300">
                 hey <span className="text-green-500 ">{userAuth?.firstName}</span>  do you want to update your profile?
             </h3>
-            {serverErr || appErr && <h2 className="text-red-600 text-center ">{serverErr} {appErr}</h2>}
+            {(serverErr || appErr) && <h2 className="text-red-600 text-center ">{serverErr} {appErr}</h2>}
         </div>
         <div className=" mt-12 sm:mx-auto sm:w-full sm:max-w-md" >
             <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">

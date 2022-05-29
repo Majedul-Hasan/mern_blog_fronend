@@ -21,7 +21,8 @@ const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Create", href: "/create-post", current: false },
   { name: "Posts", href: "/posts", current: false },
-  { name: "Authors", href: "/users", current: false },
+  { name: "Profile", href: "/users", current: false },
+   { name: "Category List", href: "/category-list", current: false },
 ];
 
 function classNames(...classes) {
