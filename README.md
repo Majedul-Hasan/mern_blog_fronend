@@ -26,33 +26,51 @@ Make sure you have the following software installed before running the applicati
 
 2. Install the dependencies:
 
- ```shell  
-    cd mern-blog-app
-    npm install
-    
-2. Install the dependencies:
-
- ```shell  
-    cd mern-blog-app
+    ```shell  
+    cd mern_blog_fronend
     npm install
 
+2. Install the dependencies In the project directory, you can run::
 
+    ```shell  
+    cd mern-blog-app
+    npm install
 
-# Getting Started with Create React App
+3. Run the application:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+    ```shell  
+    npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
+## Folder Structure 
+The project has the following folder structure:
+
+
+The main components of the project are organized as follows:
+
+- `public/`: Public assets
+- `src/`: Source code
+      - `components/`: React components
+      - `img/`: Application uses img
+      - `Redux/`: Redux codes and app logic
+                - `Slices/`: Slices code
+                - `Store/`: Redux Store    
+      - `utils/`: utils functions
+      - `App.js/`: ui logics
+      - `index.js/`: app antry point logics
+- `README.md`: The documentation file that you are currently reading.
+- `tailwind.config.js`: The configuration file used by Tailwind CSS.
+
+Feel free to customize the folder structure section as needed based on your project's actual structure.
+
+# Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
+
+
+# some default commands
 
 ### `npm test`
 
