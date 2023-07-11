@@ -51,16 +51,16 @@ The project has the following folder structure:
 
 The main components of the project are organized as follows:
 
-- `public/`: Public assets
-- `src/`: Source code
-      - `components/`: React components
-      - `img/`: Application uses img
-      - `Redux/`: Redux codes and app logic
-                - `Slices/`: Slices code
-                - `Store/`: Redux Store    
-      - `utils/`: utils functions
-      - `App.js/`: ui logics
-      - `index.js/`: app antry point logics
+- `public/`: Public assets.
+- `src/`: Source code.
+      - `components/`: React components.
+      - `img/`: Application uses img.
+      - `Redux/`: Redux codes and app logic.
+                - `Slices/`: Slices code.
+                - `Store/`: Redux Store.
+      - `utils/`: utils functions.
+      - `App.js/`: ui logics.
+      - `index.js/`: app antry point logics.
 - `README.md`: The documentation file that you are currently reading.
 - `tailwind.config.js`: The configuration file used by Tailwind CSS.
 
